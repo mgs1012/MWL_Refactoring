@@ -32,7 +32,7 @@ public class Interval {
 	
 	public boolean includes(Interval interval) {
 		
-/*		if(includes(interval.min) && includes(interval.max)){
+		if(includes(interval.min) && includes(interval.max)){
 			
 		}
 		
@@ -42,7 +42,7 @@ public class Interval {
 		}else{
 			
 		}
-		*/
+		
 		return false;
 	}
 	
