@@ -13,8 +13,7 @@ public class Interval {
 	}
 
 	public double midPoint() {
-		/*return (this.min + this.max)/2;*/
-		return 0.0;
+		return (this.min + this.max)/2;
 	}
 
 	public boolean includes(double value) {
