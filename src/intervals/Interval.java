@@ -17,7 +17,7 @@ public class Interval {
 	}
 
 	public boolean includes(double value) {
-/*		switch (opening) {
+		switch (opening) {
 		case BOTH_OPENED:
 			return value > this.min && value < this.max;
 		case LEFT_OPENED:
@@ -26,7 +26,7 @@ public class Interval {
 			return value >= this.min && value < this.max;
 		case UNOPENED:
 			return value >= this.min && value <= this.max;
-		}*/
+		}
 		return false;
 	}
 	
