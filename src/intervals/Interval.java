@@ -82,8 +82,7 @@ public class Interval {
 
 	@Override
 	public String toString() {
-		//TODO
-		return null;
+		return "( " + this.min + "," + this.max + " )";
 	}
 
 	@Override
