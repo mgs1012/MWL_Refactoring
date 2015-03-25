@@ -87,7 +87,7 @@ public class Interval {
 
 	@Override
 	public boolean equals(Object object) {
-		//TODO
+		
 		return false;
 	}
 }
